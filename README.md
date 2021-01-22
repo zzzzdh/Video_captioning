@@ -21,7 +21,7 @@ Note: You need to change your own path for each process.
 #### Video data
 1. Download [video dataset]() or prepare your own video data. The videos have to include subtitles.
 2. Clip video and parse captions `python3 clip_video_ffmpeg.py`. By doing this, you can get the frames and subtitles.
-3. Extract code from frames by google OCR, run `python3 google_ocr.py`. You many need to have developer account for using Google OCR, or you can use [tesseract](https://github.com/tesseract-ocr/tesseract) instead.
+3. Extract code from frames by [Google OCR](https://cloud.google.com/vision/docs/ocr), run `python3 google_ocr.py`. You many need to have developer account for using Google OCR, or you can use [tesseract](https://github.com/tesseract-ocr/tesseract) instead.
 
 #### Code data
 1. You can prepare your own code data for training BERT or download the [code dataset]() directly.
