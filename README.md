@@ -19,7 +19,7 @@ https://htmlpreview.github.io/?https://github.com/zzzzdh/Video_captioning/blob/m
 Note: You need to change your own path for each process.
 
 #### Video data
-1. Download [video dataset]() or prepare your own video data. The videos have to include subtitles.
+1. Download [video dataset](https://drive.google.com/file/d/1J3gCS_4JWfinZepA3dnzV0sp0bHHCIqv/view?usp=sharing) or prepare your own video data. The videos have to include subtitles.
 2. Clip video and parse captions `python3 clip_video_ffmpeg.py`. By doing this, you can get the frames and subtitles.
 3. Extract code from frames by [Google OCR](https://cloud.google.com/vision/docs/ocr), run `python3 google_ocr.py`. You may need to have developer account for using Google OCR, or you can use [tesseract](https://github.com/tesseract-ocr/tesseract) instead.
 
